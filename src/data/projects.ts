@@ -109,4 +109,16 @@ export const completedProjects: Project[] = [
     technologies: [],
     featured: true,
   },
+  {
+    id: 8,
+    title: 'SHINE',
+    client: 'SHINE',
+    description: 'A modern web application developed for SHINE.',
+    category: 'Web Application',
+    status: 'Completed',
+    url: 'https://shinehiv.netlify.app/',
+    image: 'https://image.qwenlm.ai/generated-images/1c9906ae-721e-4ae3-aee4-e92247cf47a8/_result.png',
+    technologies: [],
+    featured: true,
+  },
 ];
