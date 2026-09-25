@@ -1,3 +1,11 @@
+import loloInventoryImage from '../assets/lolo_inventry.png';
+import sunwinSecurityImage from '../assets/sunwinsec.png';
+import talithaImage from '../assets/talitha.png';
+import globalRadianceImage from '../assets/global_radiance.png';
+import christianMissionImage from '../assets/christianmission.png';
+import summitPerformanceImage from '../assets/summit.png';
+import ghamaswa from '../assets/ghanamaritime.png';
+import shineImage from '../assets/shine.png';
 export interface Project {
   id: number;
   title: string;
@@ -32,8 +40,8 @@ export const completedProjects: Project[] = [
     description: 'An inventory management system designed for an automotive store to manage products, stock levels, sales, suppliers, users and inventory activity.',
     category: 'Web Application',
     status: 'Completed / Demo',
-    url: 'https://lolosauto.netlify.app/login',
-    image: 'https://image.qwenlm.ai/generated-images/0ecbab70-4d3e-4932-90e4-96e1d4ea418f/_result.png',
+    url: 'https://lolosauto.netlify.app/',
+    image: loloInventoryImage,
     technologies: ['React', 'Tailwind CSS', 'Express'],
     featured: true,
   },
@@ -45,7 +53,7 @@ export const completedProjects: Project[] = [
     category: 'Website',
     status: 'Completed',
     url: 'https://sunwinsecurity.com.gh/',
-    image: 'https://image.qwenlm.ai/generated-images/a386ea70-32d3-4148-9e8f-2ded87dc25c0/_result.png',
+    image: sunwinSecurityImage,
     technologies: [],
     featured: true,
   },
@@ -57,7 +65,7 @@ export const completedProjects: Project[] = [
     category: 'Web Application',
     status: 'Completed',
     url: 'https://talithaheart.netlify.app/',
-    image: 'https://image.qwenlm.ai/generated-images/353f144e-258c-489b-8ba8-ccf262ac3fd4/_result.png',
+    image: talithaImage,
     technologies: [],
     featured: true,
   },
@@ -69,7 +77,7 @@ export const completedProjects: Project[] = [
     category: 'Website',
     status: 'Completed',
     url: 'https://globalradianceconsultancy.com/',
-    image: 'https://image.qwenlm.ai/generated-images/9073b079-54e6-4fcc-8aa5-92bba8cc2433/_result.png',
+    image: globalRadianceImage,
     technologies: [],
     featured: true,
   },
@@ -81,7 +89,7 @@ export const completedProjects: Project[] = [
     category: 'Website',
     status: 'Completed',
     url: 'https://christianmissionsagency.org/',
-    image: 'https://image.qwenlm.ai/generated-images/601309e5-0b05-42ae-9631-3059af89781f/_result.png',
+    image: christianMissionImage,
     technologies: [],
     featured: true,
   },
@@ -93,7 +101,7 @@ export const completedProjects: Project[] = [
     category: 'Website',
     status: 'Completed',
     url: 'https://summitgh.netlify.app/',
-    image: 'https://image.qwenlm.ai/generated-images/61d672f1-4d34-4a78-a4b7-9311b381db30/_result.png',
+    image: summitPerformanceImage,
     technologies: [],
     featured: true,
   },
@@ -105,7 +113,7 @@ export const completedProjects: Project[] = [
     category: 'Web Application / Website',
     status: 'Completed',
     url: 'https://ghamaswa.netlify.app/',
-    image: 'https://image.qwenlm.ai/generated-images/9277c608-cccf-4de0-87f3-6eb7d6a3a7f0/_result.png',
+    image: ghamaswa,
     technologies: [],
     featured: true,
   },
@@ -117,7 +125,7 @@ export const completedProjects: Project[] = [
     category: 'Web Application',
     status: 'Completed',
     url: 'https://shinehiv.netlify.app/',
-    image: 'https://image.qwenlm.ai/generated-images/1c9906ae-721e-4ae3-aee4-e92247cf47a8/_result.png',
+    image: shineImage,
     technologies: [],
     featured: true,
   },

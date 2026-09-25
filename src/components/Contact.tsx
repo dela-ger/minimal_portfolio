@@ -21,7 +21,8 @@ export default function Contact() {
               className="inline-flex items-center gap-3 text-base text-charcoal hover:opacity-70 transition-opacity group"
             >
               <span className="w-8 h-px bg-border"></span>
-              <span>hello@germaindjameh.com</span>
+              <span>djamehg@gmail.com</span>
+              <span>+233-555-493-479</span>
               <ArrowUpRight size={16} className="opacity-0 group-hover:opacity-100 transition-opacity" />
             </a>
           </div>
